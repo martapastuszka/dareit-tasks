@@ -1,0 +1,4 @@
+SELECT AVG(age)
+FROM dareit.students
+
+26.3333333333333333
