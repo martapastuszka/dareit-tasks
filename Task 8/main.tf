@@ -13,6 +13,12 @@ resource "google_storage_bucket" "static-site" {
   force_destroy = true
   uniform_bucket_level_access = true
 
+  resource "google_storage_bucket" "static-site" {
+  name          = "test"
+  location      = "EU"
+  force_destroy = true
+  uniform_bucket_level_access = true
+
   website {
     main_page_suffix = "index.html"
     not_found_page   = "404.html"
