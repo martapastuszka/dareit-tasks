@@ -1,3 +1,4 @@
+/*
 provider "google" {
   project = "arctic-ocean-378121"
   region  = "europe-central2"
@@ -82,3 +83,4 @@ resource "google_sql_user" "users" {
   password = "******"
   instance = "dareit"
 }
+*/

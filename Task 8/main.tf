@@ -1,9 +1,3 @@
-provider "google" {
-  project = "arctic-ocean-378121"
-  region  = "europe-central2"
-  zone    = "europe-central2-b"
-}
-
 # Make bucket public
 resource "google_storage_bucket_iam_member" "member" {
   provider = google
