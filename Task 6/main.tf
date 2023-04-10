@@ -35,6 +35,8 @@ resource "google_storage_bucket" "static-site" {
   }
 }
 
+
+
 # Create a VM
 resource "google_compute_instance" "test-vm" {
   name         = "test-vm-tf"
